@@ -3,32 +3,57 @@ text-align: center;
 text-decoration: none;
 }
 
+/* remove default spacing on root elements so full-width backgrounds can reach the viewport edges */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
 }
 
 ul li a {
   display: block;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'Trebuchet MS';
+  font-size: xx-large;
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: rgb(129, 129, 129);
+}
+
+
+
+img {
+height: 800px;
+width: 280px;
+
+}
+
+#grad1 {
+  /* make the gradient visible by giving the element a size */
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(129, 129, 129));
+  background-color: rgb(0, 0, 0);
+  width: 100%;         /* span full width of its container */
+  height: 896px;       /* give it some height so the gradient can be seen */
+  /* you can adjust the height or use min-height as needed */
+ display: flex;
+
+}
+
+Guitar1.html {
+background-color: black;
 }
 
 body {
-    background-color: grey
-}
-
-img {
-height: 600px;
-width: 400px;
-
+background-color: black;
 }
