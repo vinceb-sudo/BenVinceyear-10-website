@@ -16,6 +16,7 @@ ul {
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
+  word-spacing: 50px;
 }
 
 ul li a {
@@ -24,8 +25,9 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Trebuchet MS';
-  font-size: xx-large;
+  font-size: x-large;
 }
+  
 
 ul li a:hover {
   background-color: rgb(129, 129, 129);
@@ -50,9 +52,18 @@ width: 280px;
 
 }
 
-Guitar1.html {
-background-color: black;
+/* use a class selector and specify properties */
+.guitar1 {
+  height: 800px;
+  width: 280px;
 }
+.guitar2 {
+  height: 800px;
+  width: 500px;
+  float: left;
+}
+
+
 
 body {
 background-color: black;
