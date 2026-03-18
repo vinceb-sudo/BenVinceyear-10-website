@@ -51,6 +51,8 @@ ul li a:hover {
 .guitar1 {
   height: 800px;
   width: 280px;
+  float: left;
+  padding: 50px;
 }
 .realGuitar2 {
   height: 700px;
@@ -74,5 +76,14 @@ background-color: black;
   font-family: 'Trebuchet MS';
   font-size: xx-large;
   text-align: center;
+  
+}
+
+.g1text {
+  color: white;
+  font-family: 'Trebuchet MS';
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 250px;
   
 }
