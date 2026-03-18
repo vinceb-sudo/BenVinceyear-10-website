@@ -12,11 +12,10 @@ html, body {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 50px;
   background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
-  word-spacing: 50px;
 }
 
 ul li a {
@@ -26,6 +25,7 @@ ul li a {
   text-decoration: none;
   font-family: 'Trebuchet MS';
   font-size: x-large;
+  word-spacing: 500px;
 }
   
 
@@ -38,7 +38,6 @@ ul li a:hover {
 img {
 height: 800px;
 width: 400px;
-
 }
 
 #grad1 {
@@ -57,10 +56,16 @@ width: 400px;
   height: 800px;
   width: 280px;
 }
-.realguitar2 {
-  height: 800px;
-  width: 500px;
+
+.guitar2fake{
+height: 800px;
+
+}
+.realGuitar2 {
+  height: 700px;
+  width: 270px;
   float: left;
+  padding: 50px;
 }
 .guitar3 {
   height: 800px;
@@ -70,8 +75,29 @@ width: 400px;
 
 
 
+.guitar2fake {
+  height: 800px;
+  width: 600px;
+  float: right;
+}
 
 
 body {
 background-color: black;
+}
+.g2text {
+  color: white;
+  font-family: 'Trebuchet MS';
+  font-size: xx-large;
+  text-align: center;
+  
+}
+
+.g1text {
+  color: white;
+  font-family: 'Trebuchet MS';
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 250px;
+  
 }
