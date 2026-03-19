@@ -12,9 +12,11 @@ html, body {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 50px;
+  padding: 20px 50px;
   background-color: rgb(0, 0, 0);
   display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -25,7 +27,7 @@ ul li a {
   text-decoration: none;
   font-family: 'Trebuchet MS';
   font-size: x-large;
-  word-spacing: 500px;
+  margin: 0 6px;
 }
   
 
@@ -36,8 +38,9 @@ ul li a:hover {
 
 
 img {
-height: 800px;
-width: 400px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 #grad1 {
@@ -53,8 +56,9 @@ width: 400px;
 
 
 .guitar1 {
-  height: 800px;
-  width: 280px;
+  width: 320px;
+  max-width: 40vw;
+  height: auto;
 }
 
 .guitar2fake{
@@ -93,11 +97,41 @@ background-color: black;
   
 }
 
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  min-height: calc(100vh - 120px);
+  padding: 20px;
+}
+
 .g1text {
   color: white;
   font-family: 'Trebuchet MS';
-  font-size: xx-large;
+  font-size: 1.25rem;
+  line-height: 1.5;
   text-align: center;
-  margin-top: 250px;
-  
+  margin: 0;
+  max-width: 600px;
+}
+
+@media (max-width: 900px) {
+  .content {
+    flex-direction: column;
+    gap: 40px;
+    min-height: auto;
+    padding: 20px;
+  }
+  .guitar1 {
+    width: 80%;
+    max-width: 420px;
+  }
+  .g1text {
+    font-size: 1.1rem;
+    padding: 0 8px;
+  }
+  ul {
+    padding: 20px;
+  }
 }
