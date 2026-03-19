@@ -32,7 +32,7 @@ ul li a {
   
 
 ul li a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid white;
 }
 
 
@@ -125,4 +125,18 @@ background-color: black;
   ul {
     padding: 20px;
   }
+}
+
+.hometext {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Trebuchet MS';
+  font-size: xx-large;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0;
+  max-width: 80vw;
+  padding: 20px;
+  margin: 0 auto;
 }
