@@ -148,6 +148,15 @@ background-color: black;
   
 }
 
+.glassguitar {
+  width: 400px;
+  max-width: 35vw;
+  height: auto;
+  border: azure solid 2px;
+  border-radius: 20px;
+  float : right;
+}
+
 .home-container {
   display: flex;
   align-items: center;
@@ -155,4 +164,36 @@ background-color: black;
   gap: 60px;
   padding: 20px;
   padding-left: 40px;
+}
+
+.guitar5 {
+  width: 400px;
+  max-width: 35vw;
+  height: auto;
+  border: azure solid 2px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.guitar4 {
+  width: 400px;
+  max-width: 35vw;
+  height: auto;
+  border: azure solid 2px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.guitar3 {
+  width: 400px;
+  max-width: 35vw;
+  height: auto;
+  border: azure solid 2px;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-top: 100px;
+
+  
 }
