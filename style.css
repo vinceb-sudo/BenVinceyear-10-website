@@ -134,35 +134,50 @@ background-color: black;
   line-height: 1.5;
   text-align: center;
   margin: 0;
-  max-width: 50vw;
+  flex: 1;
   padding: 20px;
 }
 
 .ameguitar {
-  width: 400px;
-  max-width: 35vw;
+  width: 320px;
+  max-width: 25vw;
   height: auto;
   border: azure solid 2px;
   border-radius: 20px;
- 
 }
 
 .glassguitar {
-  width: 400px;
-  max-width: 35vw;
-  height: auto;
-  border: azure solid 2px;
+  width: 320px;
+  max-width: 25vw;
+
+
+@media (max-width: 900px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .ameguitar, .glassguitar {
+    max-width: 80%;
+    width: auto;
+  }
+  .hometext {
+    max-width: 90%;
+    text-align: center;
+  }
+}
   border-radius: 20px;
-  float : right;
 }
 
 .home-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  gap: 60px;
-  padding: 20px;
-  padding-left: 40px;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 20px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .guitar5 {
