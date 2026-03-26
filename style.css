@@ -46,14 +46,14 @@ img {
 
 
 
-.guitar1 {
-  width: 280px;
+.Guitar1 {
+  width: 450px;
   max-width: 35vw;
-  height: auto;
+  height: 640px;
 }
 
 .guitar2fake{
-height: 800px;
+height: 900px;
 
 }
 .realGuitar2 {
@@ -114,6 +114,18 @@ background-color: black;
     min-height: auto;
     padding: 20px;
   }
+  .home-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 16px;
+  }
+  .ameguitar,
+  .glassguitar {
+    width: 80%;
+    max-width: 420px;
+    margin: 0;
+  }
   .guitar1 {
     width: 80%;
     max-width: 420px;
@@ -134,50 +146,44 @@ background-color: black;
   line-height: 1.5;
   text-align: center;
   margin: 0;
-  flex: 1;
+  max-width: 50vw;
   padding: 20px;
 }
 
 .ameguitar {
-  width: 320px;
-  max-width: 25vw;
+  width: 400px;
+  max-width: 35vw;
+  height: auto;
+  border: azure solid 2px;
+  border-radius: 20px;
+ 
+}
+
+.kesguitar {
+  width: 380px;
+  max-width: 30vw;
   height: auto;
   border: azure solid 2px;
   border-radius: 20px;
 }
 
 .glassguitar {
-  width: 320px;
-  max-width: 25vw;
-
-
-@media (max-width: 900px) {
-  .home-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-  }
-  .ameguitar, .glassguitar {
-    max-width: 80%;
-    width: auto;
-  }
-  .hometext {
-    max-width: 90%;
-    text-align: center;
-  }
-}
+  width: 400px;
+  max-width: 30vw;
+  height: auto;
+  border: azure solid 2px;
   border-radius: 20px;
+  margin-right: 0;
 }
 
 .home-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  padding: 20px 40px;
-  max-width: 1200px;
-  margin: 0 auto;
+  justify-content: center;
+  gap: 60px;
+  padding: 20px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .guitar5 {
@@ -222,4 +228,11 @@ background-color: black;
   margin-top: 100px;
 
   
+}
+
+.credit {
+  color: #cccccc;
+  font-size: 0.9rem;
+  margin-top: 12px;
+  text-align: left;
 }
